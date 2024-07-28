@@ -1,0 +1,97 @@
+.container{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+input.search{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.today{
+    width:200px;
+    height:300px;
+    border: 1px solid gray;
+    border-radius:20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 120, 213);
+    color: white;
+    transition: all 0.3s ease;
+}
+.today:hover{
+    transform: scale(1.1);
+}
+h2{
+    margin:20px 0px 0px 0px;
+}
+.conditions{
+    margin-top: auto;
+}
+h1{
+    margin: 10px 0px;
+}
+
+.info{
+    width:500px;
+    height:270px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    border: 1px solid gray;
+    background-color: rgb(10, 10, 10);
+    color:white
+}
+
+.humidity,.wind{
+    display:flex;
+    width: 95%;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 20px 0px 20px;
+}
+p{
+    margin: 0;
+}
+.week{
+    display:grid;
+    width: 95%;
+    height: 100px;
+    grid-template-columns: repeat(7,1fr);
+    margin:10px;
+    background-color: rgb(30, 27, 27);
+}
+p.days{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+p.days:hover{
+    background-color: white;
+    color:black;
+    transform: scale(1.2);
+
+}
+.change{
+    margin-top:10px;
+    padding:10px 140px;
+    border-radius:20px;
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(90deg, rgb(0, 136, 255), rgb(30, 6, 180));
+    border: none;
+    color:white;
+
+}
